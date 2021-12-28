@@ -86,8 +86,68 @@
    - ul(unorder list)
    - ol(order list)
 
+   ### Task
+
+   - audio
+   - video
+   - canvas
+   - progress
+   - meter
+   - datalist
+   - select
+
+
+   ### CSS
+
+   + Cascading Style Sheets
+   
+   + three categories to apply css to html
+      - Inline CSS
+      - Internal css
+      - External CSS
+
+   + Syntax of css
+
+   ...
+   selector
+   {
+        css properties
+   }
+   .....
+
+### selectors
+
++ simple selectors
+      - universal selector(*)
+      - by element name
+      - grouping selector(we use , comma)
+      - class selector
+      - id selector
++ combinators
+      - descendent selector(we use space b/w 2 selector)
+      - child selector(we use >)
+      - adjacent sibling selector(+)
+      - general sibling selector(~)
++ pseudo class selector
++ Pseudo element selector
++ Attribute selector
+
+
+### Box model
+
++ margin
++ border
++ padding
+   - padding:10px(for all adj sides)
+   - paddind:10px 30px(10 for top& btm;30 for left&right)
+   - padding:10px 300px 50px(10px for top;300 for left/right;50 forbtm)
+   - padding:10px 30px 4px 50px(10 for top;30 px for right;4px for btm;50px for left)
++ width
+- 1rem=16px
 
 ##### Reference links
-- [Flation](h)
+- [Flation](https://www.flaticon.com)
+- https://htmlcolorcodes.com/(color codes)
+- https://webaim.org/resources/contrastchecker/(color codes contrast checker)
 
   

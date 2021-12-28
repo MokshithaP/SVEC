@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Selectors</title>
+
+    <style>
+         *{
+             font-size:20px;
+         }
+          div{
+              background-color: wheat;color: rosybrown;
+          }
+    
+         div > p{
+             background-color: violet;color: rgb(50, 66, 205);
+         }
+
+         section+p{
+             background-color:rgb(106, 255, 93) ;color: saddlebrown;
+         }
+           div+h5{
+               color: salmon;font-size: 50px;
+           }
+             div ~p{
+               background-color: slategray;color: tan;
+           } 
+           div , p{
+               background-color: royalblue;color: skyblue;
+           }
+           p::first-letter{
+               font-size: 20px;color: yellow;
+           }
+           p::first-line{
+               background-color: turquoise;
+           }
+
+    </style> 
+</head>
+<body>
+      <div>
+
+        <p> Paragraph1</p>
+        <p>Paragraph2</p>
+        <div>
+            <p>Paragraph3</p>
+        </div>
+        <section>
+        <p>Paragraph4</p>
+    </section>
+          <p>paragraph5</p>
+          <p>paragraph5</p>
+          <p>paragraph5</p>
+      </div>
+      <p>;lkjsdf;ljiehnierncxnbdhfnljigjrkjikfjsieykjgitjnbvmcmm
+          jkgjjftijhnjnbjnmknh
+      </p>
+     <h5>mokshi</h5> 
+    <p>Paragraph</p>
+    <p>mmmmmmm</p>
+</body>
+</html>
