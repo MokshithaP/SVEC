@@ -145,8 +145,25 @@
 + width
 - 1rem=16px
 
+### flex-box
+
++ display
+   - none
+   - inline
+   - block
+   - inline-block
++ position
+   - static
+   - relative
+   - absolute
+   - fixed
+   - sticky
++ align content
++ align item
++ align self
+
 ##### Reference links
-- [Flation](https://www.flaticon.com)
+- [Flaticon](https://www.flaticon.com)
 - https://htmlcolorcodes.com/(color codes)
 - https://webaim.org/resources/contrastchecker/(color codes contrast checker)
 
