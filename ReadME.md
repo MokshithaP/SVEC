@@ -145,7 +145,15 @@
 + width
 - 1rem=16px
 
+### Responsive web design
 ### flex-box
+- display
+    - flex
+    - properties of flex
+       - flex wrap
+       - justify content
+       - flex direction
+       - flex flow
 
 + display
    - none
