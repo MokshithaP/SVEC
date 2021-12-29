@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <style>
+
+.card{
+        border:5px solid slategray;
+                width:50rem;
+                border-radius: 20px;
+                height: 300px;
+                text-align: center;
+                margin-left: 100px;
+                font-size: 20px;
+                background-color: cornsilk;
+    }
+    .name{
+        padding: 10px 30px;
+    }
+    .pass{
+        padding: 10px 30px;
+    }
+    
+       
+    button{
+        border-radius: 10px;
+                background-color: rgb(63, 159, 184);
+                padding: 5px;
+                margin-bottom:30px;
+                width: 100px;
+            }
+    }
+    button:hover{
+        background-color:rgb(13, 50, 65) ;
+                color: snow;
+    }
+    label {
+        width: 20%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    
+    </style>
+</head>
+<body>
+    
+      
+
+        <div class="card row">
+        <form action="" method="get">
+            <div class="name">
+            <label class="col-3" for="recetname">enter Username</label>
+            <input type="text"name="recetname" id="recetname" placeholder="enterUSername" required="">
+            <br>
+            </div class="pass">
+            <div>
+            <label class="col-3"for="password">password</label>
+            <input type="password" name="password" id="password" required="">
+            <br>
+            </div>
+            <label for="yrstd">enter studyingyear</label>
+            <input type="number"name="year of studying" id="yrstd" placeholder="studyingyear" required="">
+            <br>
+             <label for="department">enter department</label>
+            <input type="text"name="department" id="department" placeholder="department" required="">
+            <br>
+            
+            <button> <a href="./matter.html">submit</a></button>
+        
+        </form>
+        </div>
+    
+    
+</body>
+</html>
