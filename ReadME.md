@@ -168,7 +168,81 @@
    - sticky
 + align content
 + align item
-+ align self
++ alignself
+
+### media quiries
+
+- Extra small devices(mobiles)
+     - max-width:600px
+- small devices(Large Phones)
+    - min-width:600px
+    - 768
+- medium(Small laptops)
+     - min-width:768px
+
+- large(laptops /desktops)
+      - min-width:992px
+- Extra large devices()
+      - min-width:1200px
+
+...
+@media only screen(min-width:320px) and (max-width:500px)
+{
+   CSS code
+}
+...
+
+### Bootstrap4.6
+
+- It is a CSS framework
+
+### differences
+
+- module (collection of functions and classes)
+- packages (collection of modules)
+- library(collection of packages)
+- framework(collection of library)
+
++ module --> package --> library -->Framework
+
+
++ Types of modules
+   - offline
+   - online
+      - CDN links
+### Bootstrap classes
+
++ background-color--> bg
++ text-white
++ margin in bootstrap(m-*(0-5))
+    - 0 --> 0 rem
+    - 1 -->0.25rem(4px)
+    - 2 --> 0.5rem(8 px)
+    - 3 --> 1 rem(16 px)
+    - 4 -->1.5rem(24 px)
+    - 5 --> 3 rem(48 px)
++ m(margin all directions)
++ ml-5(margin left)
++ mt(margin top)
++ mb(margin bottom)
++ mr(margin right)
++ padding(padding-left -->pl-5)
+
++ colors(bootstrap)
+    - primary
+    - secondary
+    - info
+    - success
+    - warning
+    - danger
+    - light
+    - dark
+    - white
++ we can use color classes for 
+    - buttons (btn btn-primary)
+    - text (text-white)
+    - background (bg-secondary)
+    - alerts (alert alert-primary)
 
 ##### Reference links
 - [Flaticon](https://www.flaticon.com)

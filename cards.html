@@ -33,6 +33,27 @@
             flex-wrap: wrap;
             justify-content: space-evenly;
         }
+
+        @media only screen and (min-width:320px) and (max-width:768px)
+        {
+
+            a{
+                color: blueviolet;
+                background-color: cornsilk;
+            }
+        }
+
+
+        @media only screen and (min-width:768px) 
+        {
+
+            a:hover{
+                color: rgb(226, 153, 43);
+                background-color: rgb(58, 19, 26);
+                border:2px solid  gray;
+                padding: 5px;
+            }
+        }
         /* .list{
             display: flex;
             font-size: 50px;
@@ -57,6 +78,7 @@
 <button>click</button>
 </div>
 
+
 <div class="card">
     <img src="./user.png" alt="">
     <h1>mokshitha p</h1>
@@ -65,7 +87,7 @@
     <br>
     <a href="email=pmkm.1980@gmail.com">pmkm.1980@gmail.com</a>
     <br>
-    <button>click</button>
+    <button> click</button>
     </div>
 
 
