@@ -244,6 +244,72 @@
     - background (bg-secondary)
     - alerts (alert alert-primary)
 
+### javascript
+
+- In 1995 Brenden Eich --->'javascript'(ES-202)
+- it is a text based programming language and
+   we can use in client side and serverside (Node.js)for
+   dynamic web
+- javascript is loosely tupled and dynamic language
+- ECMA-Script(collabrate)-->(ES-6)
+    - let & constant
+    - map()
+    - arrow function
+    - classes
+    - spread operator
+    - rest parameter ---> handle function parameters
+      - syntax
+        ...
+          ...parameter
+        ...
++ variables
+     - var(we use var keyword to read variables)
+     - let(we use let keyword to read variables)
+     - const(we use const keyword to read variables)
+     - redefine - we can redefine the value and also by "let" keyword too we can do this job
+     - scope
+        - function level --> var
+        - block level --->let & constant
+     - Redeclare -->var
+      - typeof() fn used to know datatype
++ datatypes
+    - number
+    - Bigint(2^53-1)
+    - String
+    - Boolean
+    - Undefined
+    - null
+    - Object
+    - Array
+   
++ hoisting means --> printing stmt before declaring
+
++ object
+
+...
+{
+   name="bcx";
+}
+...
+### Alerts
+
++ To generate notifications
+   - alert
+   - prompt(to take input from user)
+   - confirm
++ console statements
+  - `console.log()`
+  - `console.info()`
+  - `console.error()`
+  - `console.warn()`
++ spread operator
+      - swaping process
+  ...
+
+     ...VariableName
+  ...
++ Destructuring of array
+
 ##### Reference links
 - [Flaticon](https://www.flaticon.com)
 - https://htmlcolorcodes.com/(color codes)
