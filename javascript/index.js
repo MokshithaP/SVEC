@@ -49,7 +49,7 @@
 // let external_marks=[34,45,56,67,78]
 
 // let r=[33,44,external_marks]
-// let fin=[33,66,...external_marks,...internal_marks]
+// let fin=[33,66,...external_marks,...internal_marks,65,55]
 // console.log(fin)
 // console.log(r)
 
@@ -90,6 +90,60 @@
 
 //sample prgm
 
-let x=45
-let y=89
-console.log(x+y)
+// let x=45
+// let y=89
+// console.log(x+y)
+
+// function
+
+// let demo = function (x,y){
+//     return (x+y);
+// }
+// console.log(demo(3,2))
+
+//Arrow function
+// let demo= (x,y) => {
+    // return x*y
+// }
+// console.log(demo(9,8))
+
+//set time
+
+// setTimeout(function(){
+    // console.log("hello!")
+// },5000)
+
+let e=["nhj","jikf","lodjg","pioew","mnvb"]
+// for(let i=0;i<e.length;i++){
+    
+//     console.log(e[i])
+// }
+// for-in
+// for(let i in e){
+    // console.log(i)
+// }
+//for-of
+// for(let i of e){
+    // console.log(i)
+// }
+
+// let res=e.forEach(function(element,index){
+    // return element+"k"+index
+// })
+// console.log(e)
+// console.log(res)
+
+//map
+
+// let res=e.map(function(element,index){
+//     return element +"k"+index
+// })
+// console.log(e)
+// console.log(res)
+
+// Arrow function
+let res=e.map((m,n) =>{ // m,n are arguments m-->elements,n-->index
+    return n+m
+})
+console.log(e)
+console.log(res)
