@@ -1,0 +1,15 @@
+.demo{
+    border: 5px solid slategray;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 10px 30px;
+    color: thistle;
+}
+button{
+    border: 2px solid black;
+    color: black;
+}
+button:hover{
+    background-color:blue;
+}

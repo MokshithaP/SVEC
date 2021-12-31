@@ -390,6 +390,49 @@
 + Unidirectional data flow
 + Single page applications
 
++ props
+  - To pass data from one component to another component we will use props
+  - props are immutable
+
+  + UnionBank
+     - AndhraBank(Functional)
+     - Corporationbank(class)
+
++ states
+
+   - In react to maintain information we will use states
+   - we can maintain states in class components only(before 16.8 version)
+   - To take state in react,Try to create constructor above render method
+   and inside of class component
+   - use `rconst` snippet
+   - Syntax
+    ...
+    constructor(){
+       super();
+       this.state={
+
+       }
+    }
+    ...
+   - To update state information in class component use
+   `setState()` method
++ In class component to update information we have to follow component life cycle
+    - `componentWillReceiveProps()`
+    + `componentDidmount()`
+    - `componentWillMount()`
+    - `shouldComponentUpdate()`
+    - `componentWillUpdate()`
+    - `componentDidUpdate()`
+    - `componentWillUnmount()` 
+
+### hooks
++ from react 16.8 Hooks arre introduced
+
+- Parent- child1-->child2 ---> child3
+- `useState()`
+- `useEffect()`
+- `use
+
 + Project Environment setup
      - [DownloadvisualStudiocode]
      - [DownloadNodejs](https://nodejs.org/en/download/)

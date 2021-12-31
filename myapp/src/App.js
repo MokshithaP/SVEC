@@ -5,7 +5,7 @@ import ClassComponent from './components/ClassComponent';
 function App() {
   return (
 
-     <div>
+     <div> 
 
       <h1>Hello!Welcome</h1>
       <ClassComponent/>
