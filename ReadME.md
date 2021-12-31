@@ -310,9 +310,118 @@
   ...
 + Destructuring of array
 
+
++ function
+ - function with function name
+ - syntax
+ ...
+
+ function demo(x,y){
+    return x+y;
+ }
+ demo();
+ ...
+ - anonymous function
+ ...
+ let demo= function(x,y){
+    return x+y
+ }
+ ...
+ - Arrow function
+ ...
+ let demo=(x,y) => {
+    return x*y
+ }
+ - for-in
+    - to get index values
+- for-of
+    - to get elements in array
+- forEach() (ES-5)
+- map() (ES-6)
+
+### DOM
+- Document Object Model
+- document
+- history
+- window
+- navigator( can access without internet)
+
++ DOM methods
+ - `getElementById()`
+ -  `getElementByClassName()`
+ - `innerText`
+ - `append`
+ - `appendChild`
+ - `innerHTML`
+ - `setAttribute()`
+ - `classList`
+ - `style`
+ - `src`
+ - `textContent`
+ - `querySelector()`
+
+#### JSON
++ JavaScript Object Notation
+    - To Exchange information between application and server
+    -  syntax(key be in string form)
+    ...
+    {
+       "name":"Mokshitha"
+       "salary":"5.LPA"
+       "designation":"Software developer"
+       "mobile":6578903421
+    }
+    ...
+
+    + Ajax call or Promises (fetch API) or 
+    
+### ReactJS
+
+
+##### ReactJS Feautres
++ It is a library
++ It follows component based architecture
+     - Function Component
+     - Class component
+     - Pure Component
+     - Higher Order Component
++ It provides Virtual DOM
++ it provides JSX(javascript and XML)
++ Unidirectional data flow
++ Single page applications
+
++ Project Environment setup
+     - [DownloadvisualStudiocode]
+     - [DownloadNodejs](https://nodejs.org/en/download/)
+     - install nodejs and check versions of node and npm(node package manager)
+           - `node -v`
+           - `npm -v`
+     - `webpack` and `babel`
+     - `create-react-app`
+        - `npm install create-react-app`
+           - `create-react-app projectname`
+     -  `npx create-react-app appname`
+  + Index.html
+  + Index.js
+  + App.js
+      - nav.js
+      - boby.js
+      - footer.js
++ Home.js
+   - nav
+   - body
+   - footer
++ Login.js
++ Register
++ About
++ contact
+
+- class component excute first after importing than functional component
+   
 ##### Reference links
 - [Flaticon](https://www.flaticon.com)
 - https://htmlcolorcodes.com/(color codes)
 - https://webaim.org/resources/contrastchecker/(color codes contrast checker)
+- https://jsonlint.com/(to check errors in js)
 
   
