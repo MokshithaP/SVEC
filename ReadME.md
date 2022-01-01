@@ -427,11 +427,13 @@
 
 ### hooks
 + from react 16.8 Hooks arre introduced
+- To maintain information in Functional component
+we can use `Hooks`
 
 - Parent- child1-->child2 ---> child3
 - `useState()`
 - `useEffect()`
-- `use
+- `useMemo()`
 
 + Project Environment setup
      - [DownloadvisualStudiocode]
@@ -460,6 +462,26 @@
 + contact
 
 - class component excute first after importing than functional component
+
+### Event Handling
+
+- `onChange()`
+- `onSubmit()`
+- `preventDefault()`
+
+###  Routing in react
+
++ To navigate (Route) from one component to another
+   - install react-router-dom package by using
+   `npm install react-router-dom`
+   - `BrowserRouter`
+   - `Routes`
+   - `Route`
+    - `path`
+   - `element`
+  
+
+
    
 ##### Reference links
 - [Flaticon](https://www.flaticon.com)
